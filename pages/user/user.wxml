@@ -1,0 +1,6 @@
+<view class="container">
+ <input placeholder="请输入用户名" auto-focus/> 
+ <input placeholder="请输入密码" auto-focus/> 
+ <button type="primary" size="default">登录</button>
+ <button type="primary" size="default">注册</button>
+</view>

@@ -1,0 +1,12 @@
+<view class="container">
+  <swiper autoplay="true" indicator-dots="true" interval="2000" style="width:100%;margin-top:-100px;" duration="200">
+    <swiper-item wx:for="{{imgUrls}}" wx:key>
+      <image src="{{item}}"  class="slide-image"/>
+    </swiper-item>
+  </swiper>
+  <text>相册</text>
+  <view wx:for="{{modeData}}" wx:key>
+  <image mode="scaleToFill" src="{{item.url}}" />
+  <view class='textParent'><text>{{item.detail}}</text></view>
+  </view>
+</view>

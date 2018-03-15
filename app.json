@@ -1,0 +1,36 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/user/user"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#7CFC00",
+    "navigationBarTitleText": "小小相册",
+    "navigationBarTextStyle":"#fff"
+  },
+  "tabBar": {
+    "borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedIconPath":"images/2.png",
+        "iconPath": "images/2.png",
+        "text": "相册"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "selectedIconPath": "images/3.png",
+        "iconPath": "images/3.png",
+        "text": "用户中心"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "iconPath": "images/1.png",
+        "selectedIconPath": "images/1.png",
+        "text": "日志"
+      }
+    ]
+  }
+}
